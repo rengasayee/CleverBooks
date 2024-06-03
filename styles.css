@@ -29,7 +29,11 @@ nav li a:hover{
     margin: 0px 25px;
 }
 .links a{
-    color: rgb(159 110 237);
+    color: rgba(26, 5, 82, 0.516);
+    font-size: 1.3em;
+    background-color: rgb(221, 255, 0);
+    padding: 10px;
+    border-radius: 10px;
 }
 .links button{
     background: linear-gradient(145deg, rgba(252, 144, 126, 1) 0%, rgba(159, 110, 237, 1) 100%);
@@ -41,4 +45,106 @@ nav li a:hover{
 .links a:hover{
     color: white;
     font-size: 1.2em;
+    background-color: black;
+}
+.links button:hover{
+    background: linear-gradient( rgb(40, 0, 105) 100%,145deg, rgba(252, 144, 126, 1) 0%);
+}
+.product{
+    display: hidden;
+}
+.product:hover{
+    display: block;
+}
+.main{
+    width: 400px;
+    padding: 20px 170px;
+}
+.main h2{
+    color: white;
+    font-size: 3em;
+}
+.main p{
+    letter-spacing: 3px;
+    line-height: 25px;
+    font-size: 1.1em;
+    padding-bottom: 30px;
+}
+.main button{
+    background: linear-gradient(145deg, rgba(252, 144, 126, 1) 0%, rgba(159, 110, 237, 1) 100%);
+    border-radius: 20px;
+    padding: 10px;
+}
+.main button:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+.main img{
+    width: 700px;
+    height: 500px;
+    padding-left: 60px;
+    transform: translate(100%, -100%);
+}
+.main .img2{
+    width: 220px;
+    height: 150px;
+    transform: translate(80%, -370%);
+}
+.problems{
+    background-color: white;
+    padding: 100px 100px 50px 100px;
+    color: black;
+    transform: translate(0%, -30%);
+    font-size: 1.4em;
+}
+.problems h2{
+    transform: translate(30%, 0%);
+    padding-bottom: 20px;
+}
+.problems .whattoorder{
+    width: 300px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    background-color: rgb(235, 224, 224);
+    opacity: 0.7;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.problems .whentoorder{
+    width: 320px;
+    transform: translate(110%,-105%);
+    letter-spacing: 2px;
+    line-height: 30px;
+    background-color: rgb(235, 224, 224);
+    opacity: 0.7;
+    padding: 20px;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    padding-top: 55px;
+}
+.problems .stock{
+    width: 300px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    background-color: rgb(235, 224, 224);
+    opacity: 0.7;
+    padding: 20px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    transform: translate(240%, -205%);
+    padding-top: 30px;
+}
+.problems .wheretoplace{
+    width: 300px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    background-color: rgb(235, 224, 224);
+    opacity: 0.7;
+    padding: 20px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    transform: translate(350%,-309%);
 }
