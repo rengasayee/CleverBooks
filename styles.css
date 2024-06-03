@@ -1,0 +1,44 @@
+body{
+    background-color: #151218;
+    color: white;
+}
+.logo{
+    margin: 15px 25px;
+}
+nav{
+    transform: translate(30%, -250%);
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    margin: 0px 15px;
+}
+nav li a:hover{
+    color:rgba(252, 144, 126, 1);
+}
+.links{
+    transform: translate(80%,-200%);
+}
+.links a,button{
+    font-size: 1.1em;
+    text-decoration: none;
+    margin: 0px 25px;
+}
+.links a{
+    color: rgb(159 110 237);
+}
+.links button{
+    background: linear-gradient(145deg, rgba(252, 144, 126, 1) 0%, rgba(159, 110, 237, 1) 100%);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-left: 25px;
+}
+.links a:hover{
+    color: white;
+    font-size: 1.2em;
+}
